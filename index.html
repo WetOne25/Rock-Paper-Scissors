@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Rock Paper Scissors - Best of 5</title>
   <style>
-
     body {
       font-family: Arial, sans-serif;
       text-align: center;
@@ -114,19 +113,20 @@
   <p>First to 3 wins!</p>
 
   <div class="choices">
-    <img src="file:///E:/CLASSES/VGC104/VGC104_L7_John_Curl/Rock.png" alt="Rock" onclick="playerChoice('rock')">
-    <img src="file:///E:/CLASSES/VGC104/VGC104_L7_John_Curl/Paper.png" alt="Paper" onclick="playerChoice('paper')">
-    <img src="file:///E:/CLASSES/VGC104/VGC104_L7_John_Curl/Scissors.png" alt="Scissors" onclick="playerChoice('scissors')">
+    <!-- Use relative paths -->
+    <img src="Rock.png" alt="Rock" onclick="playerChoice('rock')">
+    <img src="Paper.png" alt="Paper" onclick="playerChoice('paper')">
+    <img src="Scissors.png" alt="Scissors" onclick="playerChoice('scissors')">
   </div>
 
   <div class="game-container">
     <div class="player-box">
       <h3>Your Choice</h3>
-      <img src="file:///E:/CLASSES/VGC104/VGC104_L7_John_Curl/empty.png" alt="Your Choice" id="player-choice">
+      <img src="empty.png" alt="Your Choice" id="player-choice">
     </div>
     <div class="cpu-box">
       <h3>CPU Choice</h3>
-      <img src="file:///E:/CLASSES/VGC104/VGC104_L7_John_Curl/empty.png" alt="CPU Choice" id="cpu-choice">
+      <img src="empty.png" alt="CPU Choice" id="cpu-choice">
     </div>
   </div>
 
