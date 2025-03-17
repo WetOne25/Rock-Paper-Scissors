@@ -1,0 +1,24 @@
+{
+  "name": "vgc104_l7_john_curl",
+  "version": "1.0.0",
+  "description": "Simple web game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WetOne25/Rock-Paper-Scissors.git"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "game",
+    "javascript"
+  ],
+  "author": "WetNpz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WetOne25/Rock-Paper-Scissors/issues"
+  },
+  "homepage": "https://github.com/WetOne25/Rock-Paper-Scissors#readme"
+}
